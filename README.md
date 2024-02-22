@@ -23,10 +23,6 @@ The repository is organized into different sections, each focusing on a specific
 
 If you have any ideas, suggestions, or improvements for this repository, feel free to contribute! You can submit a pull request with your changes, or open an issue to discuss your ideas.
 
-## License
-
-This repository is licensed under the [MIT License](LICENSE). Feel free to use the code and resources in this repository for your own learning purposes.
-
 ## Contact
 
 If you have any questions or need further assistance, please don't hesitate to reach out. You can contact us at [email@example.com](mailto:rohitmandavkar3577@example.com).
