@@ -13,6 +13,7 @@ def tony(n):
 tony("Tars")
 
 # Define variables with AI names
-ai_one = "Jarvis"
-ai_two = "Tars"
-ai_three = "Groot"
+AI_ONE = "Jarvis"
+
+AI_TWO = "Tars"
+AI_THREE = "Groot"
