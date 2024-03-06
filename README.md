@@ -23,8 +23,3 @@ The repository is organized into different sections, each focusing on a specific
 
 If you have any ideas, suggestions, or improvements for this repository, feel free to contribute! You can submit a pull request with your changes, or open an issue to discuss your ideas.
 
-## Contact
-
-If you have any questions or need further assistance, please don't hesitate to reach out. You can contact us at [email@example.com](mailto:rohitmandavkar3577@example.com).
-
-Happy coding and enjoy your journey to becoming a Python expert!
