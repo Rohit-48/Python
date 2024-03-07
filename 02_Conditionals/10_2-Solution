@@ -1,0 +1,28 @@
+# In this solution, I am very specific about input and added more recommendations.
+
+def recommend_food(species, age):
+ 
+  if species.lower() == "dog":
+    if age < 2:
+      return "Puppy food"
+    elif age < 5:
+      return "Adult dog food"
+    else:
+      return "Senior dog food"
+  elif species.lower() == "cat":
+    if age < 2:
+      return "Kitten food"
+    elif age < 5:
+      return "Adult cat food"
+    else:
+      return "Senior cat food"
+  else:
+    return "Please enter a valid pet species (dog or cat)."
+
+# Example usage
+species = input("Enter your pet's species (dog or cat): ")
+age = int(input("Enter your pet's age in years: "))
+
+recommendation = recommend_food(species, age)
+
+print(f"Based on your pet's information, a general recommendation would be {recommendation}.")
