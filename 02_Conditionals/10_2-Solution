@@ -1,24 +1,20 @@
-# In this solution, I am very specific about input and added more recommendations.
-
-def recommend_food(species, age):
- 
-  if species.lower() == "dog":
-    if age < 2:
-      return "Puppy food"
-    elif age < 5:
-      return "Adult dog food"
+def recommend_food(pet_species, pet_age):
+    if pet_species.lower() == "dog":
+        if pet_age < 2:
+            return "Puppy food"
+        elif pet_age < 5:
+            return "Adult dog food"
+        else:
+            return "Senior dog food"
+    elif pet_species.lower() == "cat":
+        if pet_age < 2:
+            return "Kitten food"
+        elif pet_age < 5:
+            return "Adult cat food"
+        else:
+            return "Senior cat food"
     else:
-      return "Senior dog food"
-  elif species.lower() == "cat":
-    if age < 2:
-      return "Kitten food"
-    elif age < 5:
-      return "Adult cat food"
-    else:
-      return "Senior cat food"
-  else:
-    return "Please enter a valid pet species (dog or cat)."
-
+        return "Please enter a valid pet species (dog or cat)."
 # Example usage
 species = input("Enter your pet's species (dog or cat): ")
 age = int(input("Enter your pet's age in years: "))
