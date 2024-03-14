@@ -1,9 +1,6 @@
 # Loops in Python
 
-<details>
-<summary>
-1. Counting Positive Numbers
-</summary>
+## 1. Counting Positive Numbers
 Problem: Given a list of numbers, count how many are positive.
 
 ```python
@@ -11,7 +8,6 @@ numbers = [1, -2, 3, -4, 5, 6, -7, -8, 9, 10]
 ```
 
 </details>
-
 
 <details>
 <summary>
@@ -45,7 +41,7 @@ Problem: Reverse a string using a loop.
 5. Find the First Non-Repeated Character
 </summary>
 Problem: Given a string, find the first non-repeated character.
-
+</summary>
 </details>
 
 
